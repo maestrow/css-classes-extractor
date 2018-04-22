@@ -1,6 +1,6 @@
 const path = require ('path')
 const fs = require ('fs')
-const cssExtractor = require('./css-classes-extractor')
+const cssExtractor = require('./index')
 
 const resolve = (p) => path.resolve(__dirname, p)
 
